@@ -54,9 +54,6 @@ export function Navbar() {
 
   return (
     <>
-      <SC.Banner>
-        Filecoin.tools is migrating to a new backend. In the meantime, only data up to June 2026 is available. Stay tuned for updates.
-      </SC.Banner>
       <SC.Wrapper as="header">
         <SC.Container className="container">
           <SC.LogoLink to={ROUTES.INDEX}>
